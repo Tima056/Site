@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    background-color: #D7F5DC;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    max-width: 52%;
+}
+
+.wrapper {
+    background-color:#D7F5DC;
+    width: 100%;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 50px 0;
+}
+
+header .logo {
+    font-size: 29px;
+    font-weight: 800;
+}
+
+header nav {
+    float: right;
+    width: 50%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #000000;
+}
+
+header nav ul li a:hover {
+    border-bottom: 5px solid #20B15A;
+}
+
+.hero {
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-info {
+    width: 450px;
+    padding-top: 70px;
+}
+
+.hero-info h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.hero-info p {
+    font-weight: 600;
+    line-height: 150%;
+    margin: 30px 0;
+}
+
+.hero-info .btn {
+    background: #20B15A;
+    color: #000000;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.hero-info .btn:hover {
+    background: #ff8800;
+}
+
+.hero img{
+    position: absolute;
+    top: -50px;
+    right: -100px;
+}
+
+
+/*footer*/
+
+footer{
+    background: #00ffc8;
+    padding: 50px 0;
+}
+
+footer .blocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .blocks .logo{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+footer .blocks p {
+    font-size: 20px;
+    width: 300px;
+    margin: 15px 0;
+}
+
+footer .blocks h4 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+footer .blocks ul {
+    list-style: none;
+}
+
+footer .blocks ul li {
+    margin-top: 7px;
+}
+
+
+/*страница про нас*/
+
+.hero-about{
+    position: relative;
+}
+
+.hero-about .info{
+    width: 450px;
+    padding-top: 70px;
+}
+
+.hero-about .info h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.hero-about .info p{
+    font-weight: 600;
+    line-height: 150%;
+    margin: 30px 0;
+}
+
+.hero-about .info img{
+    position: absolute;
+    max-width: 50%;
+    top: -70px;
+    right: -150px;
+}
+
+/*reg and duth*/
+
+.feedback {
+    padding: 70px 0;
+    width: 100%;
+    background-color: #D7F5DC;
+}
+
+.feedback h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.feedback p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.feedback form {
+    margin: 80px auto;
+    width: 600px;
+}
+
+.feedback form .inline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback form .inline > div {
+    width: 50%;
+}
+
+.feedback form label {
+    font-size: 14px;
+}
+
+.feedback form input{
+background-color: #D7F5DC;
+border-radius: 10px;
+border: 1px solid;
+display: block;
+width: 90%;
+padding: 15px 10px;
+outline:none;
+margin-top: 7px;
+margin-bottom: 20px;
+
+
+}
+
+.feedback form textarea{
+background-color: #D7F5DC;
+border-radius: 10px;
+border: 1px solid;
+display: block;
+width: 90%;
+padding: 15px 10px;
+outline:none;
+margin-top: 7px;
+margin-bottom: 20px;
+}
+
+.feedback form .one-line {
+    width: 96%;
+}
+
+.feedback form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.feedback form button {
+    background: #20B15A;
+    border-radius: 5px;
+    border: 0;
+    float: right;
+    padding: 15px 35px;
+}
+
+.feedback form button:hover {
+    background: #ff8800;
+}
